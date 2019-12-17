@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+}
+
+#st-container {
+	width: 850px;
+	margin:auto;
+	height: 750px;
+}
+
+#st-header {
+	background-color: transparent;
+	width: 100%;
+	float: left;	
+}
+
+#st-navbar {
+	width: 100%;
+	float: left;
+	height: 40px;	
+}
+
+#st-mainContent {
+	background-color: #F2F2F2;
+	width: 100%;
+	float: left;
+	height: auto;
+	opacity: 0.9;
+}
+
+#st-footer {
+	background-color: transparent;
+	width: 100%;
+	clear: both;
+	height: 65px;
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	background-position: -10px bottom;
+}
+
+.footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+
+
+
+/*Start of button edits for form*/
+.button1 {
+	border-radius: 25px;
+	height: 40px;
+}
+
+.button1:hover {
+	border-radius: 25px;
+	border: 1px solid #3F0;
+    background: #4CAF50;
+}
+
+.button2 {
+	border-radius: 25px;
+	height: 40px;
+}
+
+.button2:hover {
+	border-radius: 25px;
+	border: 1px solid #F30;
+    background: #F00;
+}
+/*End of button edits for form*/
+
+a:link {
+	text-decoration:none;
+	color: #EDCF27;
+	font-size:17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+	color: #6FC;
+	font-size:105%;
+}
+
+
+.contactus {
+	padding-left:10px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Start of CSS for images for bullets in list*/
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li.hat {
+	background:url(../images/magic_hat.png) no-repeat left top;
+height: 54px;
+padding-left: 44px;
+padding-top: 18px;
+}
+
+li.fairy {
+	background:
+url(../images/fairyicon.png)
+no-repeat left top;
+height: 54px;
+padding-left: 44px;
+padding-top: 18px;
+}
+
+li.wizard {
+	background:
+	url(../images/wizardicon.png)
+no-repeat left top;
+height: 54px;
+padding-left: 44px;
+padding-top: 18px;
+}
+
+li.princess {
+	background:
+	url(../images/princessicon.png)
+no-repeat left top;
+height: 54px;
+padding-left: 44px;
+padding-top: 18px;
+}
+/*End of CSS for images for bullets in list*/
+
+
+.fatedge {
+	border-radius: 10%;
+	margin: 25px;
+}
+
+.edgy {
+	border-radius: 15px;
+}
+
+
+/*Start of CSS edits for content alignment adjustments*/
+.aboutus {
+	padding-left:70px;
+}
+
+.whyus {
+	padding-right:70px;
+}
+
+.space {
+	margin: 10px;
+}
+
+/*End of CSS edits for content alignment adjustments*/
+
+
+/*Start of CSS edits for words*/
+.readable	{
+	padding-left:85px;
+	padding-right:85px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
+
+.wordy {
+	color: #969;
+	font-weight: 300;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin:40px;
+	font-style: normal;
+}
+
+.bigword {
+	font-weight: bold;
+	color: #69C;
+	font-family: 'Amatic SC', cursive;
+	font-size:36px;
+	border-style:dotted;
+}
+
+.home {
+	font-size:16px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#333;
+}
+
+/*End of CSS edits for words*/
+
+
+
+/*Pricing edits*/
+
+.price {
+	font-size: 25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #066;
+}
+
+.price2 {
+	font-size: 28px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #3C9;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.regular {
+	font-size:24px;
+	word-wrap:break-word;
+	font-stretch:expanded;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
